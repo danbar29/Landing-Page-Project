@@ -1,0 +1,66 @@
+.margin {
+    background-color: #1F2937;
+    margin-inline-start: 200px;
+    margin-inline-end: 200px;
+    padding-left:40px;
+    padding-right:40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+
+
+.main {
+    /* background-color: #1F2937; */
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    /* border:50px solid #1F2937; */
+    /* margin-inline-start: 200px;
+    margin-inline-end: 200px; */
+}
+
+
+.navbar {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* font-size: 24px; */
+    color: #F9FAF8;
+    /* padding-left: 40px; */
+}
+
+
+.links {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:16px;
+    font-weight: 20;
+    color: #E5E7EB;
+    display:flex;
+    /* move links to right side of navbar */
+    align-items:end;
+    /* leave space on right edge of navbar */
+    
+    /* space each link from eachother */
+    gap:40px;
+}
+
+
+.content1_hero {
+    font-family: roboto;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    /* border:50px solid #1F2937; */
+    color:#F9FAF8;
+    font-size:25px;
+}
+
+.content1_description {
+    color:#F9FAF8;
+    display:flex;
+    padding-right:700px;
+    font-size:14px;
+    color:#e5e7ebe0;
+    /* word-break: break-word; */
+
+}
